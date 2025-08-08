@@ -67,19 +67,13 @@ Our solution uses **voice + AI** to create a **faster, more accurate prescriptio
 ---
 
 ## 👥 Team Members  
-- [Your Name] – AI/ML Development  
-- [Teammate 1] – IoT & Hardware Integration  
-- [Teammate 2] – Frontend Development  
-- [Teammate 3] – Backend Development  
-
----
-
-## 📜 License  
-This project is licensed under the **MIT License** – feel free to use and modify it for your own applications.  
-
+- [Vikas pandey] – AI/ML Development  
+- [Kashish] – IoT & Hardware Integration  
+- [Srusthi ab,keshav np] – Frontend Development  
+- [Keshav np] – Backend Development 
 ---
 
 ## 📬 Contact  
 For queries, collaborations, or suggestions:  
-📧 your.email@example.com  
+📧 keshavnp2005@gmail.com  
 
