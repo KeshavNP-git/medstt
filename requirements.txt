@@ -1,4 +1,5 @@
 annotated-types
+gunicorn
 anyio
 asgiref
 cachetools
