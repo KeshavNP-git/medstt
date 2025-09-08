@@ -132,9 +132,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-ACCOUNT_SID=''
-AUTH_TOKEN=''
-COUNTRY_CODE='+91'
-TWILIO_WHATSAPP_NUMBER=''
-TWILIO_PHONE_NUMBER=''
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+ACCOUNT_SID = os.getenv('ACCOUNT_SID')
+AUTH_TOKEN = os.getenv('AUTH_TOKEN')
+COUNTRY_CODE = os.getenv('COUNTRY_CODE')
+TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER')
+TWILIO_PHONE_NUMBER = os.getenv('TWILIO_PHONE_NUMBER')
+
 ASGI_APPLICATION = 'health_app.asgi.application'
